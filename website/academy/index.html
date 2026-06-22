@@ -12,6 +12,17 @@
 		<meta name="author" content="Ravi Rajamani" />
 		<link rel="canonical" href="https://ezcloudiac.com/academy/index.html" />
 		<link rel="stylesheet" href="../assets/css/main.css" />
+		<style>
+			/* Academy book tiles: keep covers uniform and aligned in a row */
+			.book-tile { text-align: center; }
+			.book-tile .book-cover {
+				display: block;
+				width: 100%;
+				height: 360px;
+				object-fit: contain;
+				margin: 4px auto 1.5em auto;
+			}
+		</style>
 	</head>
 	<body>
 		<div id="page-wrapper">
@@ -69,13 +80,26 @@
 						</div>
 
 						<div class="row main-row">
-							<div class="col-6 col-12-medium">
+							<div class="col-4 col-12-medium book-tile">
 
 								<section>
+									<a href="https://www.archwaypublishing.com/en/bookstore/bookdetails/863404-essays-on-infrastructure-as-code"><img src="images/EssaysIaC.jpg" alt="Cover of Essays on Infrastructure-as-Code by Ravi Rajamani" class="book-cover" /></a>
+									<h2>Essays on Infrastructure-as-Code</h2>
+									<p>A collection of essays on repeatable infrastructure of all sizes and types &mdash; distilling the standards and best practices that serve professionals, across architecture, automation, naming conventions, compliance, technical debt and emerging trends such as generative AI.</p>
+									<footer class="controls">
+										<a href="books.html" class="button">Learn more</a>
+										<a href="https://www.archwaypublishing.com/en/bookstore/bookdetails/863404-essays-on-infrastructure-as-code" class="button">Buy</a>
+									</footer>
+								</section>
+
+							</div>
+							<div class="col-4 col-12-medium book-tile">
+
+								<section>
+									<a href="books.html"><img src="images/Book0Gen.jpg" alt="Cover of Algorithms! by Ravi Rajamani" class="book-cover" /></a>
 									<h2>Algorithms!</h2>
-									<a href="books.html"><img src="images/Book0Gen.jpg" alt="Cover of Algorithms! by Ravi Rajamani" class="top" /></a>
 									<p><strong>Don't lose your interview again! Learn the tricks of the trade.</strong></p>
-									<p>The difference between a junior software developer and a senior one can be seen from their communication on subject matter. Domain knowledge is one of the curveballs during the technical interviews. This book is a summary cheat sheet for the most often encountered interview questions &mdash; no purely academic-interest algorithms to distract your focus, only what's relevant to the interviews.</p>
+									<p>The difference between a junior software developer and a senior one can be seen from their communication on subject matter. Domain knowledge is one of the curveballs during the technical interviews. This book is a summary cheat sheet for the most often encountered interview questions &mdash; only what's relevant to the interviews.</p>
 									<footer class="controls">
 										<a href="books.html" class="button">Learn more</a>
 										<a href="https://buy.stripe.com/28ocOq0aZgR310c3cd" class="button">Buy</a>
@@ -83,11 +107,11 @@
 								</section>
 
 							</div>
-							<div class="col-6 col-12-medium">
+							<div class="col-4 col-12-medium book-tile">
 
 								<section>
+									<a href="books.html"><img src="images/Book1Gen.jpg" alt="Cover of Ideas From Computer Science by Ravi Rajamani" class="book-cover" /></a>
 									<h2>Ideas From Computer Science</h2>
-									<a href="books.html"><img src="images/Book1Gen.jpg" alt="Cover of Ideas From Computer Science by Ravi Rajamani" class="top" /></a>
 									<p>A picture is worth a thousand words. This is a picture book illustrating the problems and solutions rampant in software engineering applications &mdash; a visual guide to help anyone become familiar with what the professionals in software engineering accomplish.</p>
 									<footer class="controls">
 										<a href="books.html" class="button">Learn more</a>
