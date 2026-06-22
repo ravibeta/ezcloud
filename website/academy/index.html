@@ -8,19 +8,25 @@
 		<title>Academy - EZCloud by Ravi Rajamani</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta name="description" content="The EZCloud Academy - books on software by Ravi Rajamani, including Algorithms! and Ideas From Computer Science." />
+		<meta name="description" content="The EZCloud Academy - books on software by Ravi Rajamani: Essays on Infrastructure-as-Code, Algorithms!, and Ideas From Computer Science." />
 		<meta name="author" content="Ravi Rajamani" />
 		<link rel="canonical" href="https://ezcloudiac.com/academy/index.html" />
 		<link rel="stylesheet" href="../assets/css/main.css" />
 		<style>
-			/* Academy book tiles: keep covers uniform and aligned in a row */
-			.book-tile { text-align: center; }
-			.book-tile .book-cover {
+			/* Academy book covers: consistent portrait sizing across pages */
+			.book-cover {
 				display: block;
 				width: 100%;
 				height: 360px;
 				object-fit: contain;
 				margin: 4px auto 1.5em auto;
+			}
+			/* Publisher attribution shown as subtext under a book title */
+			.pub-subtitle {
+				margin: -1em 0 1em 0;
+				font-size: 0.9em;
+				font-style: italic;
+				color: #7a8072;
 			}
 		</style>
 	</head>
@@ -54,8 +60,8 @@
 					<div class="container">
 
 						<div id="banner">
-							<h2>The EZCloud Academy</h2>
-							<span>Books on software by Ravi Rajamani.</span>
+							<h2>Books</h2>
+							<span>Practical writing on algorithms and computer science.</span>
 						</div>
 
 					</div>
@@ -65,57 +71,68 @@
 				<div id="main">
 					<div class="container">
 
-						<div class="row">
-							<div class="col-12">
+						<div class="row main-row">
+							<div class="col-4 col-12-medium">
+
 								<section>
-									<h2>Welcome to the Academy</h2>
-									<p>The Academy brings together the books and writings of <strong>Ravi Rajamani</strong> on software, algorithms and computer science. Whether you are preparing for a technical interview or building intuition for software engineering, these resources distill years of hands-on experience into practical, approachable guides.</p>
-									<p><em>Written by Ravi Rajamani.</em></p>
+									<a href="https://www.archwaypublishing.com/en/bookstore/bookdetails/863404-essays-on-infrastructure-as-code"><img src="images/EssaysIaC.jpg" alt="Cover of Essays on Infrastructure-as-Code by Ravi Rajamani" class="book-cover" /></a>
+								</section>
+
+							</div>
+							<div class="col-8 col-12-medium">
+
+								<section>
+									<h2 id="essays">Essays on Infrastructure-as-Code</h2>
+									<p class="pub-subtitle">Published by Archway Publishing, from Simon &amp; Schuster.</p>
+									<p>A collection of essays on repeatable infrastructure of all sizes and types for software engineering projects. It avoids the lengthy manuals and distils the essence of the standards and best practices that serve professionals in the field, bringing together different perspectives on a discipline that has become as treasured as any high-value asset.</p>
+									<p>Each essay throws a distinct perspective and leaves out the chores so the tenets stand out &mdash; spanning architecture, automation, naming conventions, compliance, technical debt, and emerging trends such as generative AI. Set in a lucid, narrative tone, the collection paints the landscape and history of software infrastructure engineering around automated deployments, and strives to be an easy read.</p>
 									<footer class="controls">
-										<a href="books.html" class="button">Browse the books</a>
-										<a href="author.html" class="button">About the author</a>
+										<a href="https://www.archwaypublishing.com/en/bookstore/bookdetails/863404-essays-on-infrastructure-as-code" class="button">Buy Essays on Infrastructure-as-Code</a>
 									</footer>
 								</section>
+
 							</div>
 						</div>
 
 						<div class="row main-row">
-							<div class="col-4 col-12-medium book-tile">
+							<div class="col-4 col-12-medium">
 
 								<section>
-									<a href="https://www.archwaypublishing.com/en/bookstore/bookdetails/863404-essays-on-infrastructure-as-code"><img src="images/EssaysIaC.jpg" alt="Cover of Essays on Infrastructure-as-Code by Ravi Rajamani" class="book-cover" /></a>
-									<h2>Essays on Infrastructure-as-Code</h2>
-									<p>A collection of essays on repeatable infrastructure of all sizes and types &mdash; distilling the standards and best practices that serve professionals, across architecture, automation, naming conventions, compliance, technical debt and emerging trends such as generative AI.</p>
-									<footer class="controls">
-										<a href="books.html#essays" class="button">Learn more</a>
-										<a href="https://www.archwaypublishing.com/en/bookstore/bookdetails/863404-essays-on-infrastructure-as-code" class="button">Buy</a>
-									</footer>
+									<a href="https://buy.stripe.com/28ocOq0aZgR310c3cd"><img src="images/Book0Gen.jpg" alt="Cover of Algorithms! by Ravi Rajamani" class="book-cover" /></a>
 								</section>
 
 							</div>
-							<div class="col-4 col-12-medium book-tile">
+							<div class="col-8 col-12-medium">
 
 								<section>
-									<a href="books.html#algorithms"><img src="images/Book0Gen.jpg" alt="Cover of Algorithms! by Ravi Rajamani" class="book-cover" /></a>
-									<h2>Algorithms!</h2>
+									<h2 id="algorithms">Algorithms!</h2>
 									<p><strong>Don't lose your interview again! Learn the tricks of the trade.</strong></p>
-									<p>The difference between a junior software developer and a senior one can be seen from their communication on subject matter. Domain knowledge is one of the curveballs during the technical interviews. This book is a summary cheat sheet for the most often encountered interview questions &mdash; only what's relevant to the interviews.</p>
+									<p>The difference between a junior software developer and a senior one can be seen from their communication on subject matter. During technical interviews, an interviewer may ask about something like bloom filters and leave an unprepared candidate stumped. Domain knowledge is one of the curveballs during the technical interviews.</p>
+									<p>This book is a summary cheat sheet for the most often encountered interview questions. It focuses on practical, contemporary algorithms relevant to technical interviews: <strong>no purely academic-interest algorithms to distract your focus, only what's relevant to the interviews.</strong> The format features clear descriptions without code samples, so you can build the credibility you need during technical discussions.</p>
 									<footer class="controls">
-										<a href="books.html#algorithms" class="button">Learn more</a>
-										<a href="https://buy.stripe.com/28ocOq0aZgR310c3cd" class="button">Buy</a>
+										<a href="https://buy.stripe.com/28ocOq0aZgR310c3cd" class="button">Buy Algorithms!</a>
 									</footer>
 								</section>
 
 							</div>
-							<div class="col-4 col-12-medium book-tile">
+						</div>
+
+						<div class="row main-row">
+							<div class="col-4 col-12-medium">
 
 								<section>
-									<a href="books.html#ideas"><img src="images/Book1Gen.jpg" alt="Cover of Ideas From Computer Science by Ravi Rajamani" class="book-cover" /></a>
-									<h2>Ideas From Computer Science</h2>
-									<p>A picture is worth a thousand words. This is a picture book illustrating the problems and solutions rampant in software engineering applications &mdash; a visual guide to help anyone become familiar with what the professionals in software engineering accomplish.</p>
+									<a href="https://buy.stripe.com/aEUg0C3nb6cp4co9AD?locale=en&amp;__embed_source=buy_btn_1OLaXkKWvudr8RwNMk4AOsMc"><img src="images/Book1Gen.jpg" alt="Cover of Ideas From Computer Science by Ravi Rajamani" class="book-cover" /></a>
+								</section>
+
+							</div>
+							<div class="col-8 col-12-medium">
+
+								<section>
+									<h2 id="ideas">Ideas From Computer Science</h2>
+									<p>A picture is worth a thousand words. This book provides a visual guide to help anyone become familiar with what the professionals in software engineering accomplish.</p>
+									<p>It is a picture book illustrating the problems and solutions rampant in software engineering applications &mdash; an approachable, illustrated path into professional software engineering practices.</p>
 									<footer class="controls">
-										<a href="books.html#ideas" class="button">Learn more</a>
-										<a href="https://buy.stripe.com/aEUg0C3nb6cp4co9AD?locale=en&amp;__embed_source=buy_btn_1OLaXkKWvudr8RwNMk4AOsMc" class="button">Buy</a>
+										<a href="https://buy.stripe.com/aEUg0C3nb6cp4co9AD?locale=en&amp;__embed_source=buy_btn_1OLaXkKWvudr8RwNMk4AOsMc" class="button">Buy Ideas From Computer Science</a>
 									</footer>
 								</section>
 
@@ -138,7 +155,6 @@
 											<div class="col-3 col-6-medium col-12-small">
 												<ul class="link-list">
 													<li><a href="index.html">Academy</a></li>
-													<li><a href="books.html">Books</a></li>
 													<li><a href="author.html">Author</a></li>
 												</ul>
 											</div>
